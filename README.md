@@ -7,18 +7,18 @@ A low-effort, ADHD-friendly phone web app that goes with the workbook *Focus: A 
 **Open it:** https://gretamolo.github.io/focus-app/. On a phone, use *Add to Home Screen* (Safari) or *Install app* (Chrome).
 
 ## What it does
-- **Do this now:** one 1–5 minute exercise with a big Start button, plus “Something else” if it doesn’t fit.
-- **One-tap tracking:** a single focus emoji per day. Sleep, energy, mood, screen time, notes and distraction taps are optional and collapsed.
-- **Auto-logging:** finishing an exercise, timer or drill logs itself, including deep-work minutes and drill scores.
-- **No shame:** it counts *days practised this month* instead of streaks. Missed days just skip, and when you come back there's a friendly welcome.
-- **Small rewards:** a short animation, points and badges for doing anything.
-- **30-day plan:** Month 1 follows the workbook (Notice → Single-task → Design → Recover). *New month* builds a fresh plan from the library at 5, 10 or 20 minutes a day. Days can be skipped or swapped.
-- **79 exercises** in 8 groups, including ADHD-friendly strategies (body doubling, two-minute start, task chunking, next tiny step, visual timer, brain dump, transition ritual). Each has short steps, time, difficulty and an honest “why it works” note with sources.
-- **In-app drills:** Stroop, n-back (1/2/3), Schulte table, go/no-go, reaction time, breathing pacer (box, slow 6/min, cyclic sighing), Pomodoro/deep-work timer with a distraction counter, and guided 5-4-3-2-1 grounding.
-- **Progress:** simple charts for focus, deep-work minutes, drill scores, distractions, and the baseline quiz on Day 1 vs Day 30.
-- **Daily reminder:** downloads a recurring calendar event (.ics), since iPhones don’t reliably show notifications from web apps.
-- **Language:** English or Lithuanian interface. Exercise texts are English for now.
-- **Backup:** JSON export and import.
+- **Your daily set:** 3 short exercises a day by default (morning, before work, evening; about 5–10 min in total), shown as *Today 1/3, 2/3, 3/3*. When one is finished, a short success animation plays and the next card appears with **Start**. After the last one: *All done for today!* plus an optional **One more?**. You can choose 1–5 a day in settings, and 1 already counts as a good day. Your daily time budget (5/10/20 min) is shared across the set.
+- **Real variety:** the exercises in each day's set always come from **different groups**, rotating across movement, brain games (Stroop, n-back, Schulte, go/no-go), get-started tools (2-minute start, brain dump, if-then, chunking), focus timers, environment/digital, attention and recharge breaks. **At most one breathing/calm exercise a day, never two days in a row**. No exercise repeats within 3 days, and “Something else” always switches to a different group.
+- **Reminders:** in-app pop-up cards once a slot's time has passed and it isn't done (defaults 8:00, 12:00, 19:00; editable, each on/off) with *Start now* / *Later 1 h*. Local notifications are sent when you allow them (best effort, while the app is open or in the background). A single .ics file adds all the daily reminders to your calendar.
+- **Today’s tasks (ADHD helper):** add a task in one tap. Pick a template (Laundry, Dishes, Tidy a room, Groceries, Pay bills, Email/call, Cook dinner, Kids’ things, Shower/self-care) or type your own, with an optional reminder time and optional .ics. **Now** shows one task at a time. Every task breaks into tiny 2–5 minute steps with a visual timer, the 2-minute-start rule, editable steps, practical ADHD tips (e.g. one load start-to-finish, drop-zone basket, clean as you go), and a small celebration for every step. Unfinished tasks roll over gently, with no “overdue”. There are optional **Morning reset (10 min)** and **Evening reset (15 min)** checklists.
+- **Profiles:** a simple user switcher (name, emoji, colour) with fully separate data for each person: plan, exercises, tasks, reminders, check-ins and scores. Export one user or everyone.
+- **Make it yours (per user):** exercises per day, time budget, reminder times on/off, which exercise groups to include, your own exercises and your own task templates.
+- **Daily reminders (optional):** simple custom nudges such as water, vitamins or medication, with *Done* / *Later* pop-ups. They are included in the calendar file and off by default.
+- **One-tap tracking:** one focus emoji per day. Everything else is optional and collapsed. Finishing an exercise, timer or drill logs itself.
+- **No shame:** it counts *days practised this month* instead of streaks, missed days simply skip, and there's a friendly welcome back. Points and badges reward doing anything.
+- **30-day plan:** Month 1 follows the workbook. *New month* builds a fresh varied plan. Days can be skipped or swapped.
+- **79 exercises** in 8 groups with steps, time, difficulty and an honest “why it works” note with sources, plus in-app drills (Stroop, n-back 1/2/3, Schulte, go/no-go, reaction time, breathing pacer, Pomodoro with a distraction counter, guided 5-4-3-2-1).
+- **Progress charts**, the Day 1 vs Day 30 quiz, English/Lithuanian interface, and JSON backup.
 
 ## Privacy
 Everything is stored only in your browser (localStorage) on your device. There are no accounts, analytics or network requests. The page is a single self-contained HTML file with embedded fonts.
