@@ -28,3 +28,7 @@ Everything is stored only in your browser (localStorage) on your device. There a
 
 ## About the evidence
 The best-supported strategies for everyday focus are sleep, physical activity, distraction control, if-then plans, and CBT- or coaching-style skills. Mindfulness has modest effects. Brain-training games mainly improve the games themselves. This app supports, but does not replace, ADHD treatment: medication and CBT-based programmes have the strongest evidence. Please talk to a doctor. It is not medical advice.
+
+## Share with friends
+
+A name-free copy for friends is at **https://gretamolo.github.io/focus-app/share/**. It has no author name and starts with fresh onboarding that asks the visitor's name. It keeps its own storage keys (`focusshare.*`) and its own offline cache, so it never mixes with the main app's data on the same device.
